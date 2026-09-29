@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Soft Shadow under document -->
+        <path
+            android:fillColor="#33002019"
+            android:pathData="M31,31 C31,27.7 33.7,25 37,25 L65,25 C68.3,25 71,27.7 71,31 L71,69 C71,72.3 68.3,75 65,75 L37,75 C33.7,75 31,72.3 31,69 Z" />
+
+        <!-- Crisp White Document Sheet with rounded corners -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,29 C30,25.7 32.7,23 36,23 L64,23 C67.3,23 70,25.7 70,29 L70,67 C70,70.3 67.3,73 64,73 L36,73 C32.7,73 30,70.3 30,67 Z" />
+
+        <!-- Horizontal Quotation Lines (QuoteForge Teal) -->
+        <!-- Line 1 -->
+        <path
+            android:strokeColor="#006D5B"
+            android:strokeWidth="3.6"
+            android:strokeLineCap="round"
+            android:pathData="M39,37 L57,37" />
+
+        <!-- Line 2 -->
+        <path
+            android:strokeColor="#006D5B"
+            android:strokeWidth="3.6"
+            android:strokeLineCap="round"
+            android:pathData="M39,47 L62,47" />
+
+        <!-- Line 3 -->
+        <path
+            android:strokeColor="#006D5B"
+            android:strokeWidth="3.6"
+            android:strokeLineCap="round"
+            android:pathData="M39,57 L51,57" />
+
+        <!-- Folded Architectural Ribbon & "Q" Tail (Golden Ochre / Sand) -->
+        <!-- Folded Corner Flap Top -->
+        <path
+            android:fillColor="#C8925B"
+            android:pathData="M56,73 L70,59 L70,67 C70,70.3 67.3,73 64,73 Z" />
+
+        <!-- Shadow under ribbon tail -->
+        <path
+            android:fillColor="#26002019"
+            android:pathData="M58,69 L81,87 L75,89 L52,72 Z" />
+
+        <!-- Diagonal Ribbon Leg of "Q" (Warm Golden Sand) -->
+        <path
+            android:fillColor="#DAA574"
+            android:pathData="M55,68 L68,55 L82,78 L72,87 Z" />
+
+        <!-- Highlight bevel on upper edge of the ribbon -->
+        <path
+            android:fillColor="#ECC18D"
+            android:pathData="M55,68 L68,55 L71,59 L58,72 Z" />
+
+        <!-- Bottom right edge shadow on ribbon -->
+        <path
+            android:fillColor="#B87B43"
+            android:pathData="M82,78 L72,87 L70,85 L79,76 Z" />
+    </group>
+</vector>

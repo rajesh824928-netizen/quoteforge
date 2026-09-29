@@ -1,0 +1,6 @@
+{
+  "name": "QuoteForge",
+  "description": "Quotation generator & estimation tool for architects, interior designers, contractors, and businesses.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
